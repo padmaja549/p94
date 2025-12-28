@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int add(int,int);
+void main()
+{
+    int x=1,y=2,z;
+    z=add(x,y);
+    printf("z=%d",z);
+}
+int add(int a,int b)
+{
+    return(int)(a+b);
+}
